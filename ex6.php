@@ -18,7 +18,7 @@
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $nom_complet = $_POST["nom_complet"];
 
-    $nom_complet_majuscules = ucwords($nom_complet);
-    echo "Nom complet en majuscules : $nom_complet_majuscules";
+    $nom_complet_maj = ucwords($nom_complet);
+    echo "Nom complet avec une majuscule : $nom_complet_majuscules";
 }
 ?>
