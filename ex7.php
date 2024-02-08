@@ -8,14 +8,13 @@
 <body>
 
 <?php
-// Création d'un tableau associatif avec des informations sur une personne
+
 $personne = array(
     "nom" => "PIRES",
     "prenom" => "Mahalia",
     "age" => 23
 );
 
-// Affichage des informations
 echo "Nom: " . $personne["nom"] . "<br>";
 echo "Prénom: " . $personne["prenom"] . "<br>";
 echo "Âge: " . $personne["age"];
