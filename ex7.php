@@ -9,15 +9,15 @@
 
 <?php
 
-$personne = array(
+$moi = array(
     "nom" => "PIRES",
     "prenom" => "Mahalia",
     "age" => 23
 );
 
-echo "Nom: " . $personne["nom"] . "<br>";
-echo "Prénom: " . $personne["prenom"] . "<br>";
-echo "Âge: " . $personne["age"];
+echo "Nom: " . $moi["nom"] . "<br>";
+echo "Prénom: " . $moi["prenom"] . "<br>";
+echo "Âge: " . $moi["age"];
 ?>
 
 </body>
